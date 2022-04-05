@@ -1,0 +1,20 @@
+{
+  "name": "online-katalog-design",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alireza17224/Online-Katalog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alireza17224/Online-Katalog/issues"
+  },
+  "homepage": "https://github.com/Alireza17224/Online-Katalog#readme"
+}

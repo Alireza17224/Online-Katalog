@@ -1,0 +1,206 @@
+@media only screen and (max-width: 575.98px) { 
+    /* start header Responsive */
+    .remove-in-mobile {
+        display: none;
+    }
+    .remove-in-laptop {
+        display: flex;
+    }
+    /* finish header Responsive */
+    /* start entrance Responsive */
+    .context {
+        width: 100%;
+    }
+    .title-1 {
+        padding-top: 5px;
+    }
+    .pergola-img {
+        order: -1;
+    }
+    /* finish entrance Responsive */
+    /* start address-columns Responsive */
+    .col-6 {
+        width: 100% !important;
+    }
+    /* finish address-columns Responsive */
+    /* start products-part Responsive */
+    .col-3 {
+        width: 100% !important;
+        margin-left: 40px !important;
+        margin-right: 40px !important;
+    }
+    /* finish products-part Responsive */
+    /* start roof-part Responsive */
+    .palace {
+        width: 400px;
+    }
+    /* finish roof-part Responsive */
+    /* modal-show-detail footer Responsive */
+    .model-showing-detail {
+        height: max-content;
+        width: 400px;
+    }
+    .product-profile {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .product-name , .product-detail , .answer {
+        padding-right: 20px;
+    }
+    .answer {
+        padding-bottom: 20px;
+    }
+    .color-box {
+        margin-left: 0px;
+    }
+    /* finish modal-show-detail Responsive */
+    /* start footer Responsive */
+    .col-4 , .col-5 {
+        width: 100%;
+    }
+    .col-5 {
+        padding-right: 40px;
+    }
+    .footer .col-3 {
+        width: 100%;
+        padding-right: 0px !important;
+    }
+    /* finish footer Responsive */
+}
+
+@media only screen and (min-width: 575.98px) and (max-width: 767.98px) {
+    /* start header Responsive */
+    .remove-in-mobile {
+        display: none;
+    }
+    .remove-in-laptop {
+        display: flex;
+    }
+    /* finish header Responsive */
+    /* start entrance Responsive */
+    .context {
+        width: 100%;
+    }
+    .title-1 {
+        padding-top: 5px;
+    }
+    /* finish entrance Responsive */
+    /* start address-columns Responsive */
+    .col-6 {
+        width: 100%;
+    }
+    .pergola-img {
+        order: -1;
+    }    
+    /* finish address-columns Responsive */    
+    /* start products-part Responsive */
+    .col-3 {
+        width: 45%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    /* finish products-part Responsive */    
+        /* start footer Responsive */
+        .col-4 , .col-5 {
+            width: 100%;
+        }
+        .col-5 {
+            padding-right: 40px;
+        }
+        .footer .col-3 {
+            width: 100%;
+            padding-right: 40px;
+        }
+    /* finish footer Responsive */    
+    /* modal-show-detail footer Responsive */
+    .model-showing-detail {
+        height: max-content;
+        width: 400px;
+    }
+    .product-profile {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .product-name , .product-detail , .answer {
+        padding-right: 20px;
+    }
+    .answer {
+        padding-bottom: 20px;
+    }
+    .color-box {
+        margin-left: 0px;
+    }
+    /* finish modal-show-detail Responsive */
+ }
+
+@media only screen and (min-width: 767.98px) and (max-width: 991.98px) { 
+    /* start header Responsive */
+    .remove-in-mobile {
+        display: none;
+    }
+    .remove-in-laptop {
+        display: flex;
+    }
+    /* finish header Responsive */
+    /* start entrance Responsive */
+    .context {
+        width: 100%;
+    }
+    .title-1 {
+        padding-top: 5px;
+    }
+    .pergola-img {
+        order: -1;
+    }
+    /* finish entrance Responsive */
+    /* start address-columns Responsive */
+    .col-6 {
+        width: 100% !important;
+    }
+    /* finish address-columns Responsive */
+    /* start products-part Responsive */
+    .col-3 {
+        width: 31% !important;
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    /* finish products-part Responsive */  
+    /* modal-show-detail footer Responsive */
+    .model-showing-detail {
+        height: max-content;
+        width: 400px;
+    }
+    .product-profile {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .product-name , .product-detail , .answer {
+        padding-right: 20px;
+    }
+    .answer {
+        padding-bottom: 20px;
+    }
+    .color-box {
+        margin-left: 0px;
+    }
+        /* finish modal-show-detail Responsive */    
+    /* start footer Responsive */
+    .col-4 , .col-5 {
+        width: 100%;
+    }
+    .col-5 {
+        padding-right: 40px;
+    }
+    .footer .col-3 {
+        width: 100% !important;
+        padding-right: 40px;
+    }
+    /* finish footer Responsive */
+ }
+@media only screen and (min-width:991.98px) and (max-width: 1199.98px) { 
+    nav ul li {
+        padding: 30px 10px;
+        font-size: 14px;
+    }
+}
+/* Writeen By Alireza Mosavi || i love elon musk */
