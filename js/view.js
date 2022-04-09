@@ -8,7 +8,7 @@ const view = (function(){
       color_box : document.getElementsByClassName('color-box'),
       closeModalBtn : document.querySelector('.close'),
       icons : document.getElementsByClassName('icon'),
-      frame : document.querySelector('.frame img'),
+      frame : document.querySelector('.frame'),
       openMenu : document.querySelector('.openMenu'),
       dropdown : document.querySelector('.dropDown'),
       mobile_dropdown_links : document.getElementsByClassName('mobile-dropdown-link'),

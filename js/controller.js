@@ -48,15 +48,20 @@ const controller = (function(){
             view.elements.icons[i].addEventListener('click',function(){
                 switch (this.dataset.content) {
                     case "open" :
+                        view.elements.frame.innerHTML = ''
+                        view.elements.frame.insertAdjacentHTML('beforeend',`<video autoplay controls>
+                            <source src="${model.elements.OPEN_GIF_SRC}" type="video/mp4">
+                        </video>`)
                         view.elements.frame.src = model.elements.OPEN_GIF_SRC;
                         break;
-                    case "snapshot" :
-                        view.elements.frame.src = model.elements.SNAPSHOT_GIF_SRC;
-                        break;
                     case "close" :
-                        view.elements.frame.src = model.elements.CLOSE_GIF_SRC;
-                        break;
-                }
+                        view.elements.frame.innerHTML = ''
+                        view.elements.frame.insertAdjacentHTML('beforeend',`<video autoplay controls>
+                            <source src="${model.elements.CLOSE_GIF_SRC}" type="video/mp4">
+                        </video>`)
+                        view.elements.frame.src = model.elements.OPEN_GIF_SRC;
+                        break;               
+                    }
             })
         }
         view.elements.openMenu.addEventListener('mousemove',function(e){

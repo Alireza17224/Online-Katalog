@@ -575,7 +575,7 @@ nav ul li a:hover {
     background-color: rgba(0,0,0,.32);
     border-radius: 10px;
   }
-  .palace .main-image {
+  .palace .main-image  ,.palace video {
     width: 100%;
     border-radius: 10px;
   }

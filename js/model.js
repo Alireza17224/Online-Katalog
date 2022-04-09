@@ -14,9 +14,8 @@ const model = (function(){
         isModelOpen:false,
         CURRENT_SLIDE : 0,
         MAX_SLIDE_ID : 0,
-        OPEN_GIF_SRC : './images/video/closeToopen.gif',
-        CLOSE_GIF_SRC : './images/video/openToclose.gif',
-        SNAPSHOT_GIF_SRC : './images/video/timeLapce.gif',
+        OPEN_GIF_SRC : './images/video/closeToopen.mp4',
+        CLOSE_GIF_SRC : './images/video/openToclose.mp4',
         defaultShadeClass : "shade-down",
     }
     function openModal(fileName){
@@ -30,20 +29,10 @@ const model = (function(){
         if (typeof(id) === "number"){
             let data = model.elements.data[id];
             view.elements.model_showing_detail.classList.add('active');
-            let options = {
-                width : 400,
-                height : 250,
-                zoomWidth : 400 , 
-                zoomPosition : 'bottom',
-                offset : {vertical : 0 , horizontal : 0},
-                scale : 1.3,
-            }
             model.elements.CURRENT_SLIDE = data.id;
             view.elements.model_showing_detail.querySelector('.product-name').innerHTML = data.name;
             view.elements.model_showing_detail.querySelector('.answer').innerHTML = data.detail;
-            view.elements.model_showing_detail.querySelector('.product-profile').src = `./images/${data.imageName}.jpg`
-                new ImageZoom(view.elements.model_showing_detail.querySelector('#image-zoom'),options)    
-        
+            view.elements.model_showing_detail.querySelector('.product-profile').src = `./images/${data.imageName}.jpg`        
         }
     }
     function workShade(obj){
